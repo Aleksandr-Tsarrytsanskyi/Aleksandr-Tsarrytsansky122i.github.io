@@ -1217,12 +1217,16 @@ header .contactus {}
         width: 400px;
     }
 
-    
-
     #fixed_form {
         width: 400px !important;
     }
-   
+
+    #contactUS {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 400px;
+    }
 }
 
 @media screen and (max-width: 755px) {
@@ -1274,6 +1278,16 @@ header .contactus {}
     margin-top: -178px;
 }
 
+}
+
+@media screen and (max-width: 480px) {
+    #fixed_form {
+        width: 250px !important;
+    }
+
+    #contactUS input, #contactUS textarea, #contactUS button {
+        width: 250px;
+    }
 }
 
 @media screen and (max-width: 460px) {
