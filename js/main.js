@@ -11,6 +11,7 @@ function init() {
    const span2 = document.querySelector(".burger_menu .icon3");
    const span3 = document.querySelector(".burger_menu .hide_icon");
    const span = document.querySelectorAll(".burger_menu span")
+   const burger_menu = document.querySelector(".burger_menu")
     
    contactForn.addEventListener("submit",function(event) {
     event.preventDefault();
@@ -19,10 +20,12 @@ function init() {
    contactus.addEventListener("click", function() {
     showContactForm.classList.add("show_contact")
     showContactForm.classList.remove("hide_contact")
+    burger_menu.hidden = true;
    })
    close_form.addEventListener("click", function() {
     showContactForm.classList.add("hide_contact")
     showContactForm.classList.remove("show_contact")
+    burger_menu.hidden = false;
    })
 
    main_icon.addEventListener("click", function() {
