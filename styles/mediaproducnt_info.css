@@ -1,0 +1,47 @@
+@media screen and (max-width: 1070px) {
+    #more_details .content {
+        grid-template-columns: 616px ;
+        float: none;
+    }
+
+    #more_details .content  img {
+        width: 350px;
+    }
+
+    #more_details .content h2 {
+        font-size: 130%;
+    }
+
+    #info {
+        margin: auto;
+    }
+
+    #nav {
+        margin: auto;
+        width: 500px;
+        padding-top: 40px;
+    }
+
+    #more_information {
+        margin: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 670px) {
+    #more_details .content {
+        grid-template-columns: 300px ;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #more_details .content {
+        grid-template-columns: 300px ;
+    }
+
+    #more_details .content  img {
+        width: 300px;
+    }
+}
+

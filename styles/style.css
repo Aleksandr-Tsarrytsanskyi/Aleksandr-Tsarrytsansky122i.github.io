@@ -1528,7 +1528,7 @@ footer .contact a {
 }
 
 #nav {
-    margin: 55px 0 134px;
+    margin: 55px 0 134px 10px;
     padding: 0;
     list-style: none;
     font-family: inter_regular;  
@@ -1573,6 +1573,7 @@ footer .contact a {
 #info {
     width: 500px;
     margin-top: 40px;
+    margin-left: 10px;
 }
 
 #info .border {
@@ -1869,8 +1870,9 @@ footer .contact a {
 }
 
 #our_products .left {
-    width: 580px;
-    margin-left: 40px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width: 500px;
 }
 
 #our_products .left p {
@@ -1948,7 +1950,7 @@ footer .contact a {
 #our_services .grid_item {
     display: grid;
     grid-template-columns: 380px 380px 380px;
-    grid-gap: 0px 20px;
+    grid-gap: 20px;
     grid-auto-rows: 380px; 
     justify-content: center;
     margin-top: 100px;
@@ -1956,6 +1958,11 @@ footer .contact a {
 
 #our_services .grid_item img {
     margin-top: 20px;
+}
+
+#our_services .left {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
 
 #our_services .grid_item  .cell {
@@ -1980,6 +1987,8 @@ footer .contact a {
     font-family: inter_bold;
     font-size: 200%;
 }
+
+
 
 #support .left {
     width: 600px;
