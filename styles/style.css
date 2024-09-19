@@ -1725,7 +1725,6 @@ footer .contact a {
 
 #solutions .grid p {
     background: url('../image/aboutUs/Vector\ 2.png') no-repeat left 20%;
-    padding-left: 40px;
     font-family: inter_regular;
     color: #5B6173;
 }
@@ -1734,7 +1733,6 @@ footer .contact a {
     color: #3E3E3E;
     font-family: inter_bold;
     background: url("/image/Industrysolutions/image2.png") no-repeat;
-    padding-left: 50px;
     height: 50px;
     margin: 20px 0 40px;
 }
