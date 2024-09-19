@@ -6,19 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const moreInformation = document.querySelector("#more_information");
     const link_rewiu = document.querySelector("#link_rewiu");
     const product_reviews = document.querySelector("#show_product_reviews");
+    const reviews = document.querySelector("#clearreviews");
    
    
-    link_rewiu.addEventListener("click", function() {
-        moreInformation.hidden = true
-        info.hidden = true
-        if( product_reviews.hidden = true) {
-         product_reviews.hidden = false
-        }
-        else {
-            product_reviews.hidden = false
-         
-        }
-    })
+    
  
     nav.forEach(elem => {
      elem.addEventListener("click",function(e) {
