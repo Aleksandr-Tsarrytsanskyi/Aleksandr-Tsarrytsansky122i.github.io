@@ -1,6 +1,7 @@
 @media screen and (max-width: 1100px) {
     #solutions .grid {
         grid-template-columns: 529px ;
+        grid-gap: 40px 0;
     }
 
     #solutions .left {
@@ -11,6 +12,10 @@
     #solutions .left p, #solutions .left h3 {
         margin: 20px 0px;
         padding: 0;
+    }
+
+    #solutions .grid h4 {
+        font-size: 120%;
     }
 }
 

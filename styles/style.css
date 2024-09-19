@@ -1572,8 +1572,7 @@ footer .contact a {
 
 #info {
     width: 500px;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin: auto;
 }
 
 #info .border {
@@ -1590,6 +1589,7 @@ footer .contact a {
     display: grid;
     grid-template-columns: 296px 296px 296px 296px;
     grid-gap: 0px 20px;
+    justify-content: center;
     margin-top: 100px;
 }
 
@@ -1611,6 +1611,13 @@ footer .contact a {
 
 #more_information  {
     width: 500px;
+   margin: auto;
+}
+
+#nav {
+    width: 500px;
+    margin: auto;
+    padding-top: 70px;
 }
 
 #more_information h4 {
@@ -1654,7 +1661,7 @@ footer .contact a {
 
 #product_reviews {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 500px 518px;
     justify-content: center;
     align-items: center
 }
@@ -1727,6 +1734,7 @@ footer .contact a {
     background: url('../image/aboutUs/Vector\ 2.png') no-repeat left 20%;
     font-family: inter_regular;
     color: #5B6173;
+    padding-left: 40px;
 }
 
 #solutions h3 {
@@ -1841,6 +1849,15 @@ footer .contact a {
     color: #002E6D;
     font-family: inter_bold;
     font-size: 180%;
+    padding: 0px 1px 0 45px;
+}
+
+#solutions .icon {
+   padding: 10px;
+}
+
+#solutions .title_icon {
+    padding: 0 0 0 44px;
 }
 
 #solutions .first_child {
@@ -2091,6 +2108,42 @@ footer .contact a {
 
 #contact .m_bottom {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 550px) {
+    #info {
+        width: 300px;
+    }
+    #nav {
+        width: 300px !important;
+    }
+
+    #nav li {
+        margin-bottom: 10px;
+    }
+    #more_information {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #product_reviews {
+        grid-template-columns: 280px !important;
+    }
+    #send_review input, #send_review textarea {
+        width: 280px;
+    }
+
+    #send_review input[type="submit"] {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    #product_reviews {
+        grid-template-columns: 500px;
+    }
+
 }
 
 @media screen and (max-width: 1050px) {
