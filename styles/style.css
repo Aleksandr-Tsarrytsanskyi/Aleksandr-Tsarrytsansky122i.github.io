@@ -304,7 +304,7 @@ header .contactus:hover {
 #slider {
     background: linear-gradient(90deg, #002E6D 0%, #3098FF 100%);
     font-family: inter_regular;
-    height: 546px;
+    height: 590px;
     margin-top: -155px;
 }
 
@@ -995,8 +995,11 @@ footer .contact a {
     width: 500px;
 }
 
-#main {
+#bg_main_content {
     background-color: #EDF6FF;
+}
+
+#main {
     margin: 150px 0 0;
 }
 #methods {
@@ -2048,6 +2051,11 @@ footer .contact a {
     margin-bottom: 40px;
 }
 
+#highligts {
+    padding-top: 40px;
+    margin-top: -200px;
+}
+
 #contact iframe {
     width: 220px;
     height: 350px;
@@ -2059,6 +2067,25 @@ footer .contact a {
 
 #contact .m_bottom {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+    #new_items {
+        grid-template-columns:  444px 404px !important;
+    }
+}
+
+
+@media screen and (max-width: 920px) {
+    #new_items {
+        grid-template-columns:  444px !important;
+        grid-gap: 20px 0;
+    }
+
+    #new_items h3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
 }
 
 @media screen and (max-width: 1225px) {
@@ -2140,13 +2167,35 @@ footer .contact a {
     }
 }
 
+@media screen and (max-width: 1270px) {
+    #producnts {
+        grid-template-columns: 400px 400px;
+    }
+    #producnts h3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #producnts {
+        grid-template-columns: 400px;
+    }
+    #producnts h3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+    
+
 @media screen and (max-width: 430px) {
     .slider_grid {
         grid-template-columns: 160px 160px;
     }
 
     #slider {
-        height: 615px;
+        height: 670px;
     }
     .slide_img {
         margin-top: 150px;
@@ -2228,6 +2277,18 @@ footer .contact a {
     }
 
     
+}
+@media screen and (max-width: 720px) {
+    
+    footer {
+        grid-template-columns: minmax(160px, 300px) minmax(160px, 300px)
+    }
+}
+
+@media screen and (max-width: 370px) {
+    footer {
+        grid-template-columns: minmax(160px, 300px)
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -2470,13 +2531,76 @@ footer .contact a {
 
 @media screen and (max-width: 1280px) {
     #manufacturers {
-        grid-template-columns: 290px 290px 290px;
+        grid-template-columns: 250px 250px 250px;
     }
 
     #manufacturers h3 {
     grid-column-start: 1;
     grid-column-end: 4;
 
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #producnts{
+        margin-top: 920px;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    #new_items {
+        grid-template-columns: 490px 490px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #producnts {
+        grid-template-columns: 300px;
+    }
+
+    #producnts img {
+        width: 150px;
+    }
+
+    #producnts .img3 {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #manufacturers {
+        grid-template-columns: 250px !important;
+    }
+    #manufacturers h3 {
+        font-size: 180%;
+        grid-column-start: 1 !important;
+        grid-column-end: 2 !important;
+    }
+
+    #producnts {
+        margin-top: 2300px !important;
+    }
+} 
+
+@media screen and (max-width: 830px) {
+    #manufacturers {
+        grid-template-columns: 250px 250px;
+    }
+
+    #manufacturers h3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    
+        }
+
+        #producnts{
+            margin-top: 1020px;
+        }
+}
+
+@media screen and (max-width: 782px) {
+    #producnts{
+        margin-top: 1500px;
     }
 }
 
@@ -2698,6 +2822,38 @@ header .contactus {}
 
 }
 
+@media screen and (max-width: 1290px) {
+    .copyrigth {
+        grid-gap: 0px 100px;
+        
+    }
+} 
+
+@media screen and (max-width: 545px) {
+    .copyrigth {
+        grid-template-columns: 180px 150px !important;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .copyrigth {
+        grid-template-columns: 150px 150px !important;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 988px) {
+    .copyrigth {
+        grid-gap: 0px 20px;
+        
+    }
+    .copyrigth p {
+        font-size: 70%;
+        margin-left: 5px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     #fixed_form {
         width: 250px !important;
@@ -2705,6 +2861,13 @@ header .contactus {}
 
     #contactUS input, #contactUS textarea, #contactUS button {
         width: 250px;
+    }
+
+    #new_items {
+        grid-template-columns: 300px !important;
+    }
+    #new_items ul li {
+        float: none;
     }
 }
 
