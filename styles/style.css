@@ -1246,14 +1246,15 @@ footer .contact a {
 }
 
 #awards {
-    float: left;
-    margin-left: 40px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: 600px;
 }
 
 #awards .grid {
     display: grid;
     grid-template-columns: 260px 250px;
-    grid-gap: 0px 20px;
+    grid-gap: 0px 40px;
 }
 
 #awards h3 {
@@ -1284,6 +1285,8 @@ footer .contact a {
     width: 280px;
 }
 
+
+
 #certificates1 {
     display: grid;
     grid-template-columns:280px 280px 280px 280px;
@@ -1306,8 +1309,16 @@ footer .contact a {
 }
 
 #showcase .left {
-    float: left;
-    width: 550px;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   width: 500px;
+}
+
+#showcase ul {
+    padding-bottom: 100px !important;
+}
+#showcase .left a {
+    background: none;
 }
 
 #showcase ul {
@@ -1705,7 +1716,11 @@ footer .contact a {
    justify-content: center;
    grid-gap: 0px 20px;
 }
-
+#solutions .left {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 500px;
+}
 
 #solutions .grid p {
     background: url('../image/aboutUs/Vector\ 2.png') no-repeat left 20%;
@@ -1723,10 +1738,12 @@ footer .contact a {
     margin: 20px 0 40px;
 }
 
-#solutions .left {
-    width: 600px;
-    margin-left: 140px;
-    margin-bottom: 40px;
+#solutions .left h3 {
+    background: none;
+}
+
+#solutions .left p {
+    background: none;
 }
 
 #solutions .left p {

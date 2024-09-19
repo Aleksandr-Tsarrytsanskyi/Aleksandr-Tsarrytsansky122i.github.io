@@ -1,0 +1,52 @@
+@media screen and (max-width: 1240px) {
+    
+    #certificates1 {
+        grid-template-columns: 280px 280px;
+    }
+    #awards {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #certificates1 h3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+   
+
+}
+
+@media screen and (max-width: 655px) {
+    #awards .border img {
+        width: 100px;
+    }
+
+    #awards .grid {
+        grid-template-columns: 70px 155px;
+    }
+
+    #awards {
+        width: 300px;
+    }
+
+    #certificates1 {
+        grid-template-columns: 300px;
+    }
+    #awards {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #certificates1 h3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #awards h5 {
+        font-size: 80%;
+    }
+
+    #awards p {
+        font-size: 80%;
+    }
+}
