@@ -1648,7 +1648,7 @@ footer .contact a {
 
 #product_reviews {
   display: grid;
-  grid-template-columns: 500px 518px;
+  grid-template-columns: 500px;
   justify-content: center;
   align-items: center;
 }
@@ -3026,6 +3026,12 @@ footer .contact a {
 
 .add_reting {
     background: url("../image/rating.png") no-repeat center;
+}
+
+@media screen and (max-width: 420px) {
+    .swiper-pagination-bullet-active {
+        margin-right: 30px !important;
+    }
 }
 
 @media screen and (max-width: 420px) {
