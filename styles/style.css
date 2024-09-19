@@ -2110,6 +2110,83 @@ footer .contact a {
     margin-bottom: 20px;
 }
 
+#news .news {
+    display: grid;
+    grid-template-columns: 610px 610px;
+    justify-content: center;
+    grid-gap: 0px 20px;
+    margin-bottom: 70px;
+   
+}
+
+#news .news .cell {
+    border: 1px solid #CADBEB;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#news .first_child {
+    height: 604px;
+}
+
+#news .news .none {
+    border: none;
+    padding: 0;
+}
+
+#news .news h3 {
+    color: #051D3E;
+    font-family: inter_bold;
+    font-size: 200%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#news .m_top {
+    margin-top: 10px;
+}
+
+#news .height {
+    height: 665px;
+}
+
+#news .grid_news .cell {
+    border: none;
+}
+
+#news .grid_news {
+    border: 1px solid #CADBEB;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 174px 370px;
+    justify-content: center;
+    grid-gap: 0px 10px;
+    margin-bottom: 20px;
+}
+
+#news {
+    font-family: inter_regular;
+}
+
+#news p {
+    color: #5B6173;
+    margin-top: 0;
+}
+
+#news h6, #news h5 {
+    font-family: inter_bold;
+    color: #051D3E;
+    font-size: 100%;
+}
+
+#news a {
+    color: #55ACEE;
+    background: url("../image/news/arrow.png") no-repeat right;
+    padding-right: 35px;
+    display: block;
+    float: right;
+}
+
 @media screen and (max-width: 550px) {
     #info {
         width: 300px;

@@ -22,6 +22,8 @@ function init() {
    const item6 = document.querySelector("#item6");
    const product = document.querySelectorAll(".grid_product .cell");
 
+   console.log(item6);
+   
    product.forEach(elem => {
     elem.addEventListener("click", function(event) {
         document.location.assign("./producnt_info.html")

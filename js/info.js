@@ -7,9 +7,14 @@ document.addEventListener("DOMContentLoaded", function() {
     const link_rewiu = document.querySelector("#link_rewiu");
     const product_reviews = document.querySelector("#show_product_reviews");
     const reviews = document.querySelector("#clearreviews");
+    const contact_us = document.querySelector("#more_details .contact_us");
    
    
-    
+    contact_us.addEventListener("click", function() {
+        showContactForm.classList.add("show_contact")
+        showContactForm.classList.remove("hide_contact")
+        burger_menu.hidden = true;
+       })
  
     nav.forEach(elem => {
      elem.addEventListener("click",function(e) {
