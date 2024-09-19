@@ -8,7 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
     const product_reviews = document.querySelector("#show_product_reviews");
     const reviews = document.querySelector("#clearreviews");
     const contact_us = document.querySelector("#more_details .contact_us");
-   
+    const showContactForm = document.querySelector("#fixed_form");
+    const burger_menu = document.querySelector(".burger_menu");
+    const rating = document.querySelectorAll(".rating");
+    
+    
+    rating.forEach(elem => {
+        elem.addEventListener("click", function(e) {
+            e.target.classList.toggle("add_reting")
+        })
+    })
    
     contact_us.addEventListener("click", function() {
         showContactForm.classList.add("show_contact")
