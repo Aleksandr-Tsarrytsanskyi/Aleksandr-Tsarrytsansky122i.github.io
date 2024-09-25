@@ -60,4 +60,104 @@ window.addEventListener("DOMContentLoaded", () => {
       },
     },
   });
+  resizableSwiper("(max-width: 3500px)", ".slider1", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+    resizableSwiper("(max-width: 3500px)", ".slider1", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+  resizableSwiper("(max-width: 3500px)", ".slider2", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+  resizableSwiper("(max-width: 3500px)", ".slider3", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 1,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  })
 });
