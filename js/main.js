@@ -21,7 +21,10 @@ function init() {
    const item5 = document.querySelector("#item5");
    const item6 = document.querySelector("#item6");
    const product = document.querySelectorAll(".grid_product .cell");
+   const sliderarrow = document.querySelector(".swiper-button-next");
 
+   sliderarrow.innerHTML = ""
+   sliderarrow.innerHTML = ""
    console.log(item6);
    
    product.forEach(elem => {
