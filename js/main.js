@@ -23,9 +23,6 @@ function init() {
    const product = document.querySelectorAll(".grid_product .cell");
    const sliderarrow = document.querySelector(".swiper-button-next");
 
-   sliderarrow.innerHTML = ""
-   sliderarrow.innerHTML = ""
-   console.log(item6);
    
    product.forEach(elem => {
     elem.addEventListener("click", function(event) {
