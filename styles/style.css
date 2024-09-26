@@ -387,20 +387,20 @@ header .contactus:hover {
   font-family: inter_bold;
   font-size: 240%;
   color: #333333;
-  margin: 80px 0 0;
+  margin: 80px 0 75px;
 }
 
-.we_present {
-  display: grid;
-  grid-template-columns: 290px 290px 290px 290px;
-  grid-auto-rows: 185px;
-  justify-content: center;
-  grid-gap: 0px 20px;
+
+.slider1 {
+  width: 1230px;
+  height: 400px;
 }
 
 .we_present figure {
   margin: 0;
 }
+
+
 
 .we_present h3 {
   margin: 80px 0 0;
@@ -412,6 +412,8 @@ header .contactus:hover {
   background-color: #fff;
   border: 1px solid #e2ebf5;
   border-radius: 10px;
+  width: 300px;
+  height: 185px;
   text-align: center;
 }
 
@@ -428,6 +430,7 @@ header .contactus:hover {
   font-size: 90%;
   font-size: 95%;
 }
+
 
 .we_present figcaption {
   color: #858a9b;
@@ -2228,13 +2231,13 @@ footer .contact a {
 .change_slider {
   margin-top: 100px;
   position: absolute;
-  margin-left: -172px;
+  margin-left: -108px;
   border: 1px solid #55ACEE;
   border-radius: 10px;
   width: 100px;
   height: 40px;
   padding: 0px 0px 0px 5px;
-  margin-top: 120px;
+  margin-top: -59px;
 }
 
 
@@ -2471,6 +2474,13 @@ footer .contact a {
   #highligts {
     grid-template-columns: 300px 300px 300px;
   }
+  .slider1 {
+    width: 945px;
+  }
+
+  .change_slider {
+    margin-left: -117px;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -2479,44 +2489,34 @@ footer .contact a {
     padding-top: 40px;
     margin-top: -180px;
   }
+  .slider1 {
+    width: 610px;
+  }
+  .change_slider {
+    margin-left: -109px;
+  }
+
 }
 
 @media screen and (max-width: 650px) {
   #highligts {
     grid-template-columns: 300px;
   }
-}
-
-@media screen and (max-width: 1260px) {
-  .we_present {
-    grid-template-columns: 260px 260px 260px 260px;
+  .slider1 {
+    width: 304px;
   }
-}
-
-@media screen and (max-width: 1130px) {
-  .we_present {
-    grid-template-columns: 260px 260px;
-    grid-gap: 20px;
-  }
-
   .we_present h3 {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    font-size: 200% !important;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .we_present {
-    grid-template-columns: 260px;
-    grid-gap: 20px;
-  }
+ 
 
   .we_present h3 {
     text-align: center;
     font-size: 170% !important;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin: 80px 0 0 !important;
+    margin: 80px 0 75px !important;
   }
 }
 

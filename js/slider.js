@@ -60,10 +60,11 @@ window.addEventListener("DOMContentLoaded", () => {
       },
     },
   });
-  resizableSwiper("(max-width: 3500px)", ".slider1", {
+
+    resizableSwiper("(max-width: 3500px)", ".slider1", {
     loop: true,
     spaceBetween: 10,
-    slidesPerView: 1,
+    slidesPerView: 4,
     freeMode: true,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -85,7 +86,58 @@ window.addEventListener("DOMContentLoaded", () => {
     //   el: '.swiper-scrollbar',
     // },
   });
-    resizableSwiper("(max-width: 3500px)", ".slider1", {
+  resizableSwiper("(max-width: 1300px)", ".slider1", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 3,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+  resizableSwiper("(max-width: 980px)", ".slider1", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 2,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+
+  resizableSwiper("(max-width: 650px)", ".slider1", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 1,
