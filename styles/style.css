@@ -509,7 +509,7 @@ header .contactus:hover {
 }
 
 .events h3 {
-  margin: 27px 0px 9px -49px;
+  margin: 27px 0px 9px -49px !important;
 }
 
 .events ul {
@@ -687,7 +687,7 @@ header .contactus:hover {
 
 #producnts h3 {
   color: #051D3E;
-  font-size: 200%;
+  font-size: 240%;
   grid-column-start: 1;
   margin-bottom: 80px;
   grid-column-end: 4;
@@ -2513,10 +2513,10 @@ footer .contact a {
 
   .we_present h3 {
     text-align: center;
-    font-size: 170%;
+    font-size: 170% !important;
     grid-column-start: 1;
     grid-column-end: 2;
-    margin: 80px 0 0;
+    margin: 80px 0 0 !important;
   }
 }
 
