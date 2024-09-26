@@ -1,4 +1,24 @@
 window.addEventListener("DOMContentLoaded", () => {
+  const slider = document.querySelector(".we_present .swiper")
+  if(window.innerWidth <= 1300) {
+    slider.classList.remove("slider1")
+    slider.classList.add("slider_present1")
+  }
+
+  if(window.innerWidth <= 980) {
+    slider.classList.remove("slider_present1")
+    slider.classList.add("slider_present2")
+  }
+
+  if(window.innerWidth <= 650) {
+    slider.classList.add("slider_present3")
+    slider.classList.remove("slider_present2")
+  }
+
+  if(window.innerWidth > 1300) {
+    slider.classList.add("slider1")
+    slider.classList.remove("slider_present1")
+  }
   const resizableSwiper = (
     breakpoint,
     swiperClass,
@@ -86,7 +106,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //   el: '.swiper-scrollbar',
     // },
   });
-  resizableSwiper("(max-width: 1300px)", ".slider1", {
+  resizableSwiper("(max-width: 1300px)", ".slider_present1", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 3,
@@ -111,7 +131,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //   el: '.swiper-scrollbar',
     // },
   });
-  resizableSwiper("(max-width: 980px)", ".slider1", {
+  resizableSwiper("(max-width: 980px)", ".slider_present2", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 2,
@@ -137,7 +157,7 @@ window.addEventListener("DOMContentLoaded", () => {
     // },
   });
 
-  resizableSwiper("(max-width: 650px)", ".slider1", {
+  resizableSwiper("(max-width: 650px)", ".slider_present3", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 1,

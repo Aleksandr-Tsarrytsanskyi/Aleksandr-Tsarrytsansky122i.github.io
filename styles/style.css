@@ -390,12 +390,6 @@ header .contactus:hover {
   margin: 80px 0 75px;
 }
 
-
-.slider1 {
-  width: 1230px;
-  height: 400px;
-}
-
 .we_present figure {
   margin: 0;
 }
@@ -1122,6 +1116,10 @@ footer .contact a {
   color: #5b6173;
   font-family: inter_regular;
   line-height: 30px;
+}
+
+.slider1 {
+  width: 1234px;
 }
 
 #expertise {
@@ -2474,12 +2472,15 @@ footer .contact a {
   #highligts {
     grid-template-columns: 300px 300px 300px;
   }
-  .slider1 {
+  .slider_present1 {
     width: 945px;
+  } 
+  .change_slider {
+    margin-left: -110px;
   }
 
-  .change_slider {
-    margin-left: -117px;
+  .we_present .position {
+    float: right;
   }
 }
 
@@ -2489,11 +2490,11 @@ footer .contact a {
     padding-top: 40px;
     margin-top: -180px;
   }
-  .slider1 {
-    width: 610px;
-  }
   .change_slider {
     margin-left: -109px;
+  }
+  .slider_present2 {
+    width: 620px;
   }
 
 }
@@ -2502,11 +2503,12 @@ footer .contact a {
   #highligts {
     grid-template-columns: 300px;
   }
-  .slider1 {
-    width: 304px;
-  }
+ 
   .we_present h3 {
     font-size: 200% !important;
+  }
+  .slider_present3 {
+    width: 304px;
   }
 }
 
