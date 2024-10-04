@@ -1372,7 +1372,8 @@ footer .contact a {
   display: grid;
   grid-template-columns: 283px 936px;
   grid-gap: 0px 20px;
-  margin-top: 100px;
+  margin-top: -40px;
+  margin-left: 70px;
   justify-content: center;
 }
 
