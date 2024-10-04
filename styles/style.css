@@ -1520,6 +1520,12 @@ footer .contact a {
   font-size: 120%;
 }
 
+#more_details {
+  display: grid;
+  grid-template-columns: 1000px;
+
+}
+
 #more_details .content .contact_us {
   display: block;
   background-color: #3098ff;
@@ -1547,7 +1553,7 @@ footer .contact a {
 }
 
 #nav {
-  margin: 55px 0 134px 10px;
+  margin: 0px 0 20px 10px;
   padding: 0;
   list-style: none;
   font-family: inter_regular;
@@ -1591,7 +1597,7 @@ footer .contact a {
 
 #info {
   width: 500px;
-  margin: auto;
+  margin-left: 20px;
 }
 
 #info .border {
@@ -1628,13 +1634,12 @@ footer .contact a {
 
 #more_information {
   width: 500px;
-  margin: auto;
+ margin-left: 20px;
 }
 
 #nav {
   width: 500px;
-  margin: auto;
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
 #more_information h4 {
@@ -1679,7 +1684,8 @@ footer .contact a {
 #product_reviews {
   display: grid;
   grid-template-columns: 500px;
-  justify-content: center;
+  justify-content: normal;
+  margin-left: 20px;
   align-items: center;
 }
 
