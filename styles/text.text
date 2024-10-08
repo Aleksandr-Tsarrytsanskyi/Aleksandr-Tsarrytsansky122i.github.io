@@ -1,0 +1,31 @@
+@font-face {
+  font-family: inter_bold;
+  src: url("../fonts/Inter-Bold_1.woff");
+}
+@font-face {
+  font-family: inter_medium;
+  src: url("../fonts/Inter-Medium_1.woff");
+}
+@font-face {
+  font-family: inter_regular;
+  src: url("../fonts/Inter-Regular_1.woff");
+}
+
+@font-face {
+  font-family: inter_Black;
+  src: url("../fonts/Inter-Black.woff2");
+}
+
+@font-face {
+  font-family: inter_semi_bold;
+  src: url("../fonts/Inter-Semi-Bold.woff");
+}
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -108px;
+    border: 1px solid #55ACEE;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    padding: 0px 0px 0px 5px;
+    margin-top: -59px;

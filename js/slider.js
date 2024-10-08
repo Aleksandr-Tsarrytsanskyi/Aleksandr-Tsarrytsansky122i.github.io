@@ -1,5 +1,9 @@
 window.addEventListener("DOMContentLoaded", () => {
   const slider = document.querySelector(".we_present .swiper")
+  const h2 = document.querySelector("#slider .more1 h2");
+  const slider3 = document.querySelector("#media_slider3 .swiper");
+  console.log(slider3);
+  
   if(window.innerWidth <= 1300) {
     slider.classList.remove("slider1")
     slider.classList.add("slider_present1")
@@ -18,6 +22,20 @@ window.addEventListener("DOMContentLoaded", () => {
   if(window.innerWidth > 1300) {
     slider.classList.add("slider1")
     slider.classList.remove("slider_present1")
+  }
+
+  if(window.innerWidth < 430) {
+    h2.innerHTML = "Оборудование и комплексы для <br>3D печати"
+  }
+
+  if(window.innerWidth <= 900) {
+    slider3.classList.add("new_slider3");
+    slider3.classList.remove("slider1_present3");
+  }
+
+  if(window.innerWidth >= 900) {
+    slider3.classList.add("slider1_present3")
+    slider3.classList.remove("new_slider3");
   }
   const resizableSwiper = (
     breakpoint,
@@ -71,7 +89,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //     delay: 5000,
     //   },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".swiperslider-pagination",
       clickable: true,
     },
     breakpoints: {
@@ -87,8 +105,8 @@ window.addEventListener("DOMContentLoaded", () => {
     slidesPerView: 4,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
@@ -112,8 +130,8 @@ window.addEventListener("DOMContentLoaded", () => {
     slidesPerView: 3,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
@@ -137,8 +155,8 @@ window.addEventListener("DOMContentLoaded", () => {
     slidesPerView: 2,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
@@ -163,8 +181,8 @@ window.addEventListener("DOMContentLoaded", () => {
     slidesPerView: 1,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
@@ -182,14 +200,15 @@ window.addEventListener("DOMContentLoaded", () => {
     //   el: '.swiper-scrollbar',
     // },
   });
+
   resizableSwiper("(max-width: 3500px)", ".slider2", {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 1,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
@@ -210,11 +229,61 @@ window.addEventListener("DOMContentLoaded", () => {
   resizableSwiper("(max-width: 3500px)", ".slider3", {
     loop: true,
     spaceBetween: 10,
+    slidesPerView: 2,
+    freeMode: true,
+    navigation: {
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+  resizableSwiper("(max-width: 1275px)", ".slider1_present3", {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 2,
+    freeMode: true,
+    navigation: {
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //   },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      1200: {
+        spaceBetween: 20,
+      },
+    },
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  });
+  resizableSwiper("(max-width: 900px)", ".new_slider3", {
+    loop: true,
+    spaceBetween: 10,
     slidesPerView: 1,
     freeMode: true,
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".nextslider",
+      prevEl: ".prevslider",
     },
     // autoplay: {
     //     delay: 5000,
