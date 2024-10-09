@@ -1462,6 +1462,7 @@ footer .contact a {
 #showcase ul li a {
   color: #051d3e;
   font-family: inter_regular;
+  padding-bottom: 4px;
 }
 
 #showcase ul li a:hover {
