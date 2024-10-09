@@ -2753,6 +2753,14 @@ footer .contact a {
   #company img {
     width: 300px !important;
   }
+
+  /* header .table p {
+    font-size: 87% !important;
+  } */
+
+  header .table ul li {
+    margin-left: 8px;
+  }
 }
 
 @media screen and (max-width: 890px) {
