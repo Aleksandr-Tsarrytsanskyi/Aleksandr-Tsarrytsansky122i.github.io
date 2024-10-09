@@ -2978,16 +2978,11 @@ footer .contact a {
 }
 
 @media screen and (max-width: 820px) {
-  #our_services .grid_item .cell {
-    height: 400px;
+  #our_products .left {
+    height: 300px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  #products_grid {
-    grid-gap: 100px 0 !important;
-  }
-}
 
 @media screen and (max-width: 1070px) {
   #product_reviews {
