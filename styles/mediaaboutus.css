@@ -1,11 +1,16 @@
 @media screen and (max-width: 900px) {
     #offer {
         grid-template-columns: 448px;
+        grid-gap: 30px 20px
     }
 
     #offer h2 {
         grid-column-start: 1;
         grid-column-end: 2;
+    }
+
+    #offer .first {
+        margin-bottom: 20px;
     }
 }
 
