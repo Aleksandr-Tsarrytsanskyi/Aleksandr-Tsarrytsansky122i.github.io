@@ -2422,7 +2422,7 @@ footer .contact a {
 
 @media screen and (max-width: 570px) {
   #product_reviews {
-    grid-template-columns: 280px !important;
+    grid-template-columns: 300px !important;
   }
   #send_review input,
   #send_review textarea {
