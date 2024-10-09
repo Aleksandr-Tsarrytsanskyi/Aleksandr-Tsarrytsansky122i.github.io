@@ -10,8 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   if(window.innerWidth <= 980) {
-    slider.classList.remove("slider_present1")
-    slider.classList.add("slider_present2")
+    slider.classList.remove("slider_present1");
+    slider.classList.add("slider_present2");
   }
 
   if(window.innerWidth <= 650) {
@@ -36,6 +36,10 @@ window.addEventListener("DOMContentLoaded", () => {
   if(window.innerWidth >= 900) {
     slider3.classList.add("slider1_present3")
     slider3.classList.remove("new_slider3");
+  }
+
+  if(window.innerWidth <= 1275) {
+    slider3.classList.remove("slider3");
   }
   const resizableSwiper = (
     breakpoint,

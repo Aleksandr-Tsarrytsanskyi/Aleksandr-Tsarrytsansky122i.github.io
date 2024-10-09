@@ -531,7 +531,7 @@ header .contactus:hover {
   margin-bottom: 60px;
 }
 
-.slider3 {
+#media_slider3 .swiper{
   width: 1237px;
   margin-top: 60px;
 }
@@ -829,24 +829,22 @@ header .contactus:hover {
   width: 612px;
 }
 
-.slider3 h3 {
+#media_slider3 h3 {
   font-family: inter_bold;
   color: #051D3E;
   font-size: 250%;
   margin: 0;
 }
 
-.slider3 .position {
+#media_slider3 .position {
   float: right;
 }
 
-.slider3 .change_slider{
+#media_slider3 .change_slider{
   margin-top: -20px;
 }
 
-.slider3 .swiper-button-next:after, .swiper-button-prev:after {
- 
-}
+
 
 .new_items ul {
   padding: 0;
@@ -2760,7 +2758,7 @@ footer .contact a {
     width: 400px;
   }
 
-  .slider3 {
+  #media_slider3 .swiper {
     width: 400px !important;
   }
 
@@ -2782,7 +2780,7 @@ footer .contact a {
 }
 
 @media screen and (max-width: 1275px) {
-  .slider3 {
+  #media_slider3 .swiper {
     width: 815px;
   }
 
@@ -3395,7 +3393,7 @@ footer .contact a {
     width: 250px;
   }
 
-  .slider3 h3 {
+  #media_slider3  h3 {
     margin-bottom: 30px;
   }
 
@@ -3406,12 +3404,12 @@ footer .contact a {
     float: none;
   }
 
-  .slider3 .change_slider {
+  #media_slider3  .change_slider {
     margin-top: -10px;
     margin-left: -108px;
   }
 
-  .slider3 {
+  #media_slider3 .swiper {
     width: 300px !important;
   }
 }
