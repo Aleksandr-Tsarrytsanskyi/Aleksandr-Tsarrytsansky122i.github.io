@@ -1,6 +1,7 @@
 @media screen and (max-width: 1250px)  {
     .grid_support {
         grid-template-columns: 700px !important;
+        margin-left: 0 !important;
     }
 
     #support .left {

@@ -2584,6 +2584,26 @@ footer .contact a {
   #slider .content_card {
     padding-top: 0;
   }
+
+  #solutions .grid {
+    margin-top: 15px;
+  }
+
+  #products_grid {
+    margin-top: 15px;
+  }
+
+  #our_services .grid_item {
+    margin-top: 15px;
+  }
+
+  #support .grid_support {
+    margin-top: 15px;
+  }
+
+  #contact {
+    margin-top: 15px;
+  }
 }
 
 @media screen and (max-width: 1270px) {
