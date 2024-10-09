@@ -2981,6 +2981,7 @@ footer .contact a {
   #product_reviews {
     display: grid;
     justify-content: center;
+    margin-left: 0;
   }
 }
 
