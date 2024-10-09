@@ -1622,7 +1622,6 @@ footer .contact a {
 
 #more_details {
   display: grid;
-  grid-template-columns: 1000px;
   justify-content: center;
 
 }
