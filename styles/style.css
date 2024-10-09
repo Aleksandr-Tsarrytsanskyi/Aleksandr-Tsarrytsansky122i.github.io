@@ -2977,6 +2977,12 @@ footer .contact a {
   }
 }
 
+@media screen and (max-width: 400px) {
+  #products_grid .first {
+    margin-top: 40px;
+  }
+}
+
 @media screen and (max-width: 1070px) {
   #product_reviews {
     display: grid;
