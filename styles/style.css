@@ -2413,6 +2413,11 @@ footer .contact a {
   #more_information {
     width: 300px;
   }
+
+  #more_information .left {
+    font-size: 85%;
+    margin-top: 17px;
+  }
 }
 
 @media screen and (max-width: 570px) {
