@@ -2978,8 +2978,8 @@ footer .contact a {
 }
 
 @media screen and (max-width: 400px) {
-  #products_grid .first {
-    margin-top: 40px;
+  #products_grid {
+    grid-gap: 80px 0 !important;
   }
 }
 
