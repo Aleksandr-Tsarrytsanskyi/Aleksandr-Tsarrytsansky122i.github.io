@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./styles/header.css" type="text/css" >
     <link rel="stylesheet" href="./styles/mediarecommendation.css" type="text/css" >
     <script type="module" src="./js/main.js"></script>
-  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./js/recommendation_slide.js"></script>
 </head>
 <body>
     <div id="fixed_form">
@@ -246,6 +248,9 @@
           </div>
           <div class="cell">
             <form id="search" action="#" method="get">
+              <div class="left magnifying">
+                <img src="./image/search ico.png" alt="">
+              </div>
               <div>
                 <input
                   type="text"
@@ -286,15 +291,42 @@
                 </div>
             </div>
         </div>
-        <div id="letters">
+        <div id="latters_slide">
+          <div class="swiper slider5">
             <h4>Рекомандательные письма</h4>
-            <div class="cell">
-                <img src="./image/rewuies/image2.png" alt="">
+            <div class="position">
+              <div class="change_slider">
+                <div class="prevslider">
+                  <img src="./image/prev_slider.png" alt="">
+                </div>
+                <div class="border_arrow_slider"></div>
+                <div class="nextslider">
+                  <img src="./image/next_slider.png" alt="">
+                </div>
+              
+              </div>  
             </div>
-            <div class="cell">
-                <img src="./image/rewuies/image3.png" alt="">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cell">
+                  <img src="./image/rewuies/image2.png" alt="">
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cell">
+                  <img src="./image/rewuies/image3.png" alt="">
+              </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cell">
+                  <img src="./image/rewuies/image3.png" alt="">
+              </div>
+              </div>
             </div>
-        </div>
+
+            
+          </div>
+        </div>  
       </div>  
     <footer>
         <div class="cell">

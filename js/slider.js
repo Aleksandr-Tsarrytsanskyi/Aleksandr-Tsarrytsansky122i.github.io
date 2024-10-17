@@ -305,4 +305,5 @@ window.addEventListener("DOMContentLoaded", () => {
     //   el: '.swiper-scrollbar',
     // },
   })
+
 });

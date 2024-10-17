@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/mediaproducnt_info.css" type="text/css" >
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/info.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </head>
 <body>
     <div id="fixed_form">
@@ -245,6 +247,9 @@
           </div>
           <div class="cell">
             <form id="search" action="#" method="get">
+              <div class="left magnifying">
+                <img src="./image/search ico.png" alt="">
+              </div>
               <div>
                 <input
                   type="text"
@@ -272,7 +277,19 @@
             <div class="clear"></div>
             <div class="content">
                 <div class="cell">
-                    <img src="./image/products/image_info.png" alt="">
+                  <div class="swiper slider8">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <img src="./image/products/image_info.png" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/products/image_info.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
                 </div>
                 <div class="cell">
                     <p class="title">Печать для дома и офиса</p>
@@ -325,7 +342,7 @@
             <div class="clear"></div>
             <ul id="nav">
                 <li>
-                    <a href="#" id="change_block_more">Общие характеристики</a>
+                    <a href="#" class="active" id="change_block_more">Общие характеристики</a>
                 </li>
                 <li>
                     <a href="#" class="more_info" id="change_block_info">Больше информации</a>
@@ -461,25 +478,63 @@
           </div>
             <div class="clear"></div>
             <div class="border_top_info">
-            <div id="similar_products">
+              <div class="swiper slider7">
                 <h3>Похожие товары</h3>
-                <div class="cell">
-                    <img src="./image/products/image.png" alt="">
-                    <p>Canon i-SENSYS LBP 112</p>
+                <div class="position">
+                  <div class="change_slider">
+                    <div class="prevslider">
+                      <img src="./image/prev_slider.png" alt="">
+                    </div>
+                    <div class="border_arrow_slider"></div>
+                    <div class="nextslider">
+                      <img src="./image/next_slider.png" alt="">
+                    </div>
+                   
+                  </div>  
                 </div>
-                <div class="cell">
-                    <img src="./image/products/image1.png" alt="">
-                    <p>Canon i-SENSYS LBP 162DW</p>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div id="similar_products">
+                      <div class="cell">
+                          <img src="./image/products/image.png" alt="">
+                          <p>Canon i-SENSYS LBP 112</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image1.png" alt="">
+                          <p>Canon i-SENSYS LBP 162DW</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image2.png" alt="">
+                          <p>Canon i-SENSYS LBP 223dw/226dw</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image3.png" alt="">
+                          <p>Canon i-SENSYS LBP 325X</p>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div id="similar_products">
+                      <div class="cell">
+                          <img src="./image/products/image.png" alt="">
+                          <p>Canon i-SENSYS LBP 112</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image1.png" alt="">
+                          <p>Canon i-SENSYS LBP 162DW</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image2.png" alt="">
+                          <p>Canon i-SENSYS LBP 223dw/226dw</p>
+                      </div>
+                      <div class="cell">
+                          <img src="./image/products/image3.png" alt="">
+                          <p>Canon i-SENSYS LBP 325X</p>
+                      </div>
+                  </div>
+                  </div>
                 </div>
-                <div class="cell">
-                    <img src="./image/products/image2.png" alt="">
-                    <p>Canon i-SENSYS LBP 223dw/226dw</p>
-                </div>
-                <div class="cell">
-                    <img src="./image/products/image3.png" alt="">
-                    <p>Canon i-SENSYS LBP 325X</p>
-                </div>
-            </div>
+              </div>
         </div>
       </div>
   </div>   
