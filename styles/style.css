@@ -2777,6 +2777,13 @@ footer .contact a {
   #slider {
     height: 500px;
   }
+
+  #slider .more p {
+    line-height: 18px;
+  }
+  #slider .more1 p {
+    line-height: 21px;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -3098,6 +3105,7 @@ footer .contact a {
     height: 5695px;
     position: fixed;
     margin-top: -110px;
+    z-index: 200;
     opacity: 0;
     transition: all 0.5s;
     transform: translate(-100%, 0%);
@@ -3119,6 +3127,7 @@ footer .contact a {
   #logo .hover_company {
     margin-top: -25px;
     margin-left: 150px;
+    height: 170px;
   }
 
   #logo .hover_we_offer {
@@ -3168,7 +3177,6 @@ footer .contact a {
     justify-items: stretch;
     grid-gap: 0px;
     position: relative;
-    z-index: 200;
   }
 
   #search input[type="text"] {
@@ -3369,6 +3377,10 @@ footer .contact a {
     margin-top: 70px;
   }
   .nextslider img {
+    margin: -47px 11px 23px 69px;
+  }
+
+  #latters_slide .nextslider img {
     margin: -47px 11px 30px 69px;
   }
 }
