@@ -79,7 +79,7 @@ select {
   font-family: inter_Light;
 }
 
-#similar_products p {
+.similar_products p {
   color: #002E6D;
   font-family: inter_medium;
 }
@@ -1941,7 +1941,7 @@ footer .contact a {
   border-top: 1px solid #cadbeb;
 }
 
-#similar_products {
+.similar_products {
   display: grid;
   grid-template-columns: 296px 296px 296px 296px;
   grid-gap: 0px 20px;
@@ -1949,7 +1949,7 @@ footer .contact a {
   margin-top: 100px;
 }
 
-#similar_products h3 {
+.similar_products h3 {
   font-family: inter_bold;
   font-size: 180%;
   margin-bottom: 10px;
@@ -1959,7 +1959,7 @@ footer .contact a {
   margin-bottom: 40px;
 }
 
-#similar_products .cell {
+.similar_products .cell {
   border: 1px solid #cadbeb;
   border-radius: 10px;
   text-align: center;
