@@ -1596,11 +1596,11 @@ footer .contact a {
   padding: 20px;
 }
 
-#certificates1 img {
+.certificates1 img {
   width: 280px;
 }
 
-#certificates1 {
+.certificates1 {
   display: grid;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 20px 20px;
@@ -1609,7 +1609,7 @@ footer .contact a {
   margin-top: -40px;
 }
 
-#certificates1 h3 {
+.certificates1 h3 {
   color: #051d3e;
   font-family: inter_bold;
   font-size: 200%;
