@@ -7,30 +7,36 @@ body {
 @font-face {
   font-family: inter_bold;
   src: url("../fonts/Inter-Bold_1.woff");
+  font-display: swap;
 }
 @font-face {
   font-family: inter_medium;
   src: url("../fonts/Inter-Medium_1.woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: inter_semi_bold;
   src: url("../fonts/Inter-Semi-Bold.woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: inter_regular;
   src: url("../fonts/Inter-Regular_1.woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: inter_Black;
   src: url("../fonts/Inter-Black.woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: inter_Light;
   src: url("../fonts/Inter-Light.woff");
+  font-display: swap;
 }
 
 .hide_items {
