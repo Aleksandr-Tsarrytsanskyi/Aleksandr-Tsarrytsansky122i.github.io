@@ -63,9 +63,9 @@ body {
 select {
   border: none;
   outline: none;
-  background-color: #EDF6FF;
+  background-color: #edf6ff;
   cursor: pointer;
-  color: #051D3E;
+  color: #051d3e;
   font-family: inter_regular;
 }
 
@@ -86,7 +86,7 @@ select {
 }
 
 .similar_products p {
-  color: #002E6D;
+  color: #002e6d;
   font-family: inter_medium;
 }
 
@@ -442,7 +442,7 @@ header .contactus:hover {
 .slider6 .change_slider {
   position: static;
   float: right;
-  margin:  15px 5px -63px;
+  margin: 15px 5px -63px;
 }
 
 #slider .section:hover {
@@ -499,7 +499,7 @@ header .contactus:hover {
 }
 
 #bg_profile_g {
-  background-color: #EDF6FF;
+  background-color: #edf6ff;
   padding-top: 90px;
 }
 
@@ -531,7 +531,6 @@ header .contactus:hover {
   font-size: 90%;
   font-size: 95%;
 }
-
 
 .we_present figcaption {
   color: #858a9b;
@@ -587,7 +586,7 @@ header .contactus:hover {
   margin-bottom: 60px;
 }
 
-#media_slider3 .swiper{
+#media_slider3 .swiper {
   width: 1237px;
   margin-top: 60px;
 }
@@ -615,7 +614,7 @@ header .contactus:hover {
   margin: 20px 0px 130px;
 }
 
-.events { 
+.events {
   display: grid;
   grid-template-columns: 400px 10px 400px;
   justify-content: center;
@@ -625,7 +624,6 @@ header .contactus:hover {
   padding-bottom: 40px;
   height: 500px;
 }
-
 
 .events .cell.cell:nth-child(2) {
   background: url("../image/Line.png") no-repeat center;
@@ -665,8 +663,6 @@ header .contactus:hover {
   font-family: inter_regular;
   margin-top: 70px;
 }
-
-
 
 .events .m_top2 {
   margin-top: -30px;
@@ -814,7 +810,7 @@ header .contactus:hover {
 
 #producnts h3 {
   font-family: inter_bold;
-  color: #051D3E;
+  color: #051d3e;
   font-size: 240%;
   grid-column-start: 1;
   margin-bottom: 80px;
@@ -877,7 +873,6 @@ header .contactus:hover {
 }
 
 .new_items {
-  
   margin-top: 40px;
 }
 
@@ -887,7 +882,7 @@ header .contactus:hover {
 
 #media_slider3 h3 {
   font-family: inter_bold;
-  color: #051D3E;
+  color: #051d3e;
   font-size: 250%;
   margin: 0;
 }
@@ -896,11 +891,9 @@ header .contactus:hover {
   float: right;
 }
 
-#media_slider3 .change_slider{
+#media_slider3 .change_slider {
   margin-top: -20px;
 }
-
-
 
 .new_items ul {
   padding: 0;
@@ -931,7 +924,7 @@ header .contactus:hover {
 }
 
 .new_items h3 {
-  color: #051D3E;
+  color: #051d3e;
   font-size: 200%;
   margin-bottom: 40px;
   grid-column-start: 1;
@@ -946,10 +939,9 @@ header .contactus:hover {
 
 footer {
   display: grid;
-  grid-template-columns: minmax(160px, 300px) minmax(160px, 300px) minmax(
-      160px,
-      350px
-    ) minmax(160px, 300px);
+  grid-template-columns:
+    minmax(160px, 300px) minmax(160px, 300px) minmax(160px, 350px)
+    minmax(160px, 300px);
   justify-content: center;
   background-color: #edf6ff;
   margin-top: 50px;
@@ -1041,7 +1033,7 @@ footer .contact a {
 }
 
 .slider8 .swiper-pagination-bullet {
-  background-color: #55ACEE !important;
+  background-color: #55acee !important;
 }
 
 .show_contact {
@@ -1163,7 +1155,7 @@ footer .contact a {
   grid-template-columns: 500px 470px;
   justify-content: center;
   grid-gap: 0px 5px;
-  background-color: #EDF6FF;
+  background-color: #edf6ff;
 }
 #item p {
   color: #5b6173;
@@ -1182,8 +1174,6 @@ footer .contact a {
 #item img {
   width: 500px;
 }
-
-
 
 #main {
   margin: 150px 0 0;
@@ -1321,7 +1311,6 @@ footer .contact a {
   margin-right: 116px;
 }
 
-
 #expertise h3 {
   font-size: 200%;
   grid-column-start: 1;
@@ -1368,7 +1357,7 @@ footer .contact a {
 
 .slider9 {
   width: 955px;
-} 
+}
 
 #certificates {
   display: grid;
@@ -1427,7 +1416,7 @@ footer .contact a {
 
 .licenses p {
   font-family: inter_semi_bold;
-  color: #3E3E3E;
+  color: #3e3e3e;
   margin-left: 20px;
   margin-top: 0;
   margin-bottom: 0;
@@ -1515,12 +1504,12 @@ footer .contact a {
   margin-top: 70px;
 }
 
-
 .slider5 .swiper-slide img {
   width: 570px;
 }
 
-.slider5 .change_slider , .media_slider5 .change_slider{
+.slider5 .change_slider,
+.media_slider5 .change_slider {
   position: static;
   float: right;
   margin: 0px 0px 20px;
@@ -1534,7 +1523,8 @@ footer .contact a {
   width: 575px;
 }
 
-.slider5 h4, .media_slider5 {
+.slider5 h4,
+.media_slider5 {
   color: #051d3e;
   font-family: inter_bold;
   font-size: 140%;
@@ -1556,7 +1546,7 @@ footer .contact a {
   font-family: inter_bold;
   font-size: 200%;
   font-weight: normal;
-  color: #051D3E;
+  color: #051d3e;
   margin: 140px 0 -40px;
 }
 
@@ -1643,7 +1633,7 @@ footer .contact a {
 }
 
 .border_active_of {
-  border-bottom: 2px solid #CADBEB;
+  border-bottom: 2px solid #cadbeb;
   margin: 109px 10px 10px 10px;
   position: absolute;
   width: 426px;
@@ -1659,11 +1649,11 @@ footer .contact a {
 
 #showcase p {
   font-family: inter_medium;
-  color: #002E6D;
+  color: #002e6d;
 }
 
 #showcase .left p {
-  color: #5B6173;
+  color: #5b6173;
   font-family: inter_regular;
 }
 
@@ -1846,14 +1836,11 @@ footer .contact a {
 #more_details {
   display: grid;
   justify-content: center;
-
 }
 
 #menu_products {
   width: 465px;
 }
-
-
 
 #more_details .content .contact_us {
   display: block;
@@ -1973,7 +1960,7 @@ footer .contact a {
 
 #more_information {
   width: 500px;
- margin-left: 20px;
+  margin-left: 20px;
 }
 
 #nav {
@@ -2043,7 +2030,7 @@ footer .contact a {
 
 #send_review input,
 #send_review textarea {
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
   width: 500px;
   height: 38px;
   border-radius: 10px;
@@ -2105,7 +2092,8 @@ footer .contact a {
 #solutions h3 {
   color: #3e3e3e;
   font-family: inter_bold;
-  background: url("/image/Industrysolutions/image2.png") no-repeat left 3% top 30%;
+  background: url("/image/Industrysolutions/image2.png") no-repeat left 3% top
+    30%;
   height: 50px;
 }
 
@@ -2235,7 +2223,7 @@ footer .contact a {
 
 #solutions .title_icon {
   padding: 20px 0 20px 60px;
-  background-color: #EDF6FF;
+  background-color: #edf6ff;
   margin: 0 0 30px;
 }
 
@@ -2308,7 +2296,7 @@ footer .contact a {
   margin-top: -40px;
 }
 .bg_products {
-  color: #55ACEE;
+  color: #55acee;
 }
 
 #products_grid .cell {
@@ -2317,16 +2305,15 @@ footer .contact a {
   text-align: center;
 }
 
-
 #products_grid .cell:hover {
   cursor: pointer;
   background-color: #fff;
-  border: 1px solid #55ACEE;
+  border: 1px solid #55acee;
   background: url("../image/stl_products.png") no-repeat bottom 19% right 10%;
 }
 
 #products_grid .cell:hover p {
-  color: #55ACEE
+  color: #55acee;
 }
 
 #products_grid .cell:hover img {
@@ -2376,7 +2363,7 @@ footer .contact a {
 #our_services .grid_item {
   display: grid;
   grid-template-columns: 380px 380px 380px;
-  grid-gap: 20px; 
+  grid-gap: 20px;
   justify-content: center;
   margin-top: -40px;
 }
@@ -2406,7 +2393,7 @@ footer .contact a {
 .grid_item h4 {
   color: #002e6d;
   font-family: inter_bold;
-  border-bottom: 1px solid #CADBEB;
+  border-bottom: 1px solid #cadbeb;
   padding-bottom: 20px;
 }
 
@@ -2449,7 +2436,6 @@ footer .contact a {
   color: #5b6173;
 }
 
-  
 #search img {
   width: 16px !important;
   margin-left: 0 !important;
@@ -2487,7 +2473,7 @@ footer .contact a {
   height: 10px;
 }
 
-#contact  .underline {
+#contact .underline {
   text-decoration: underline;
 }
 
@@ -2615,7 +2601,7 @@ footer .contact a {
   margin-top: 100px;
   position: absolute;
   margin-left: -108px;
-  border: 1px solid #55ACEE;
+  border: 1px solid #55acee;
   border-radius: 10px;
   width: 100px;
   height: 40px;
@@ -2623,9 +2609,8 @@ footer .contact a {
   margin-top: -59px;
 }
 
-
-
-.swiper-button-next, .swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   position: relative !important;
 }
 
@@ -2635,12 +2620,11 @@ footer .contact a {
   height: 30px;
 }
 .swiper-button-next {
- background: url("/image/next_slider.png") no-repeat right;
+  background: url("/image/next_slider.png") no-repeat right;
 }
 
-
 .swiper-button-prev {
-  margin:  -8px -1px -55px !important;
+  margin: -8px -1px -55px !important;
 }
 
 .slider1 .position {
@@ -2655,14 +2639,12 @@ footer .contact a {
   margin: -47px 11px 23px 69px;
 }
 
-.prevslider img{
- position: relative;
- z-index: 200;
+.prevslider img {
+  position: relative;
+  z-index: 200;
   cursor: pointer;
   margin: 11px 10px 10px 8px;
 }
-
-
 
 @media screen and (max-width: 550px) {
   #info {
@@ -2698,8 +2680,6 @@ footer .contact a {
     width: 300px;
   }
 }
-
-
 
 @media screen and (max-width: 1020px) {
   #slider_events {
@@ -2843,7 +2823,6 @@ footer .contact a {
     overflow: hidden;
   }
 
-
   #slider {
     height: 500px;
   }
@@ -2921,7 +2900,6 @@ footer .contact a {
   }
 }
 
-
 @media screen and (max-width: 430px) {
   .slider_grid {
     grid-template-columns: 160px 160px;
@@ -2939,14 +2917,15 @@ footer .contact a {
   }
 
   #slider .more1 {
-    height: 174px ;
+    height: 174px;
   }
 
   #slider .position {
     margin-top: 150px;
   }
 
-  #slider h1, #slider h2 {
+  #slider h1,
+  #slider h2 {
     font-size: 100%;
   }
 
@@ -2961,7 +2940,7 @@ footer .contact a {
   }
   .slider_present1 {
     width: 945px;
-  } 
+  }
   .change_slider {
     margin-left: -110px;
   }
@@ -2983,39 +2962,37 @@ footer .contact a {
   .slider_present2 {
     width: 620px;
   }
-
 }
 
 @media screen and (max-width: 1140px) {
-
   #certificates {
     grid-template-columns: 300px !important;
   }
   .media_slider9 {
-  width: 300px;
-}
+    width: 300px;
+  }
 
-.slider10 {
-  width: 300px;
-}
-.licenses {
-  grid-template-columns: 300px;
-}
+  .slider10 {
+    width: 300px;
+  }
+  .licenses {
+    grid-template-columns: 300px;
+  }
 
-.licenses p {
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
+  .licenses p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 
-.licenses img {
-  width: 300px;
-}
+  .licenses img {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 650px) {
   #highligts {
     grid-template-columns: 300px;
   }
- 
+
   .we_present h3 {
     font-size: 200% !important;
   }
@@ -3025,8 +3002,6 @@ footer .contact a {
 }
 
 @media screen and (max-width: 580px) {
- 
-
   .we_present h3 {
     text-align: center;
     font-size: 170% !important;
@@ -3085,7 +3060,6 @@ footer .contact a {
   }
 }
 
-
 @media screen and (max-width: 360px) {
   .slider_grid {
     grid-template-columns: 160px 160px;
@@ -3094,8 +3068,6 @@ footer .contact a {
     font-size: 80%;
   }
 }
-
-
 
 @media screen and (max-width: 900px) {
   .new_items .cell {
@@ -3117,7 +3089,6 @@ footer .contact a {
   #offer .cell {
     width: 448px !important;
   }
-
 }
 
 @media screen and (max-width: 485px) {
@@ -3175,7 +3146,6 @@ footer .contact a {
     text-align: left;
     background: none !important;
   }
-
 
   #logo .topmenu li a {
     color: #fff;
@@ -3350,8 +3320,6 @@ footer .contact a {
   }
 }
 
-
-
 @media screen and (max-width: 780px) {
   .bg_events {
     width: 400px;
@@ -3398,9 +3366,8 @@ footer .contact a {
   }
 
   .bg_events .show_more {
-    margin: -123px  9px auto;
+    margin: -123px 9px auto;
   }
-
 }
 
 @media screen and (max-width: 430px) {
@@ -3435,7 +3402,7 @@ footer .contact a {
   }
 
   .bg_events .show_more {
-    margin: -55px  auto;
+    margin: -55px auto;
   }
 
   #slider_events .change_slider {
@@ -3465,7 +3432,7 @@ footer .contact a {
 
   .media_slider5 {
     width: 616px;
-  } 
+  }
 
   .media_slider5 h4 {
     margin-bottom: 20px !important;
@@ -3521,7 +3488,6 @@ footer .contact a {
     grid-column-end: 3;
   }
 }
-
 
 @media screen and (max-width: 810px) {
   #email {
@@ -3669,7 +3635,7 @@ footer .contact a {
 
   #contactUS .title {
     font-family: inter_bold;
-    color: #3E3E3E;
+    color: #3e3e3e;
     font-size: 140% !important;
   }
 
@@ -3794,18 +3760,18 @@ footer .contact a {
     width: 250px;
   }
 
-  #media_slider3  h3 {
+  #media_slider3 h3 {
     margin-bottom: 30px;
   }
 
-  .new_items .cell  {
+  .new_items .cell {
     width: 300px !important;
   }
   .new_items ul li {
     float: none;
   }
 
-  #media_slider3  .change_slider {
+  #media_slider3 .change_slider {
     margin-top: -10px;
     margin-left: -108px;
   }
@@ -3838,9 +3804,8 @@ footer .contact a {
 }
 
 .add_reting {
-    background: url("../image/rating.png") no-repeat center;
+  background: url("../image/rating.png") no-repeat center;
 }
-
 
 @media screen and (max-width: 420px) {
   .bg_header .table .cell {
